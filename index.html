@@ -1,663 +1,621 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <!-- Basic -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-
-  <title>GYM PARK</title>
-
-  <!-- slider stylesheet -->
-  <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
-
-  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-
-  <!-- fonts style -->
-  <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Dosis:400,600,700|Poppins:400,600,700&display=swap"
-    rel="stylesheet" />
-  <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Anix-YvedaK">
+    <meta name="author" content="Anibal Saavedra">
+    <title>Anix-YvedaK</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap main styles -->
+	<link rel="stylesheet" href="assets/css/Style.css">
 </head>
-
-<body>
-  <div class="hero_area">
-    <!-- header section strats -->
-    <header class="header_section">
-      <div class="container">
-        <nav class="navbar navbar-expand-lg custom_nav-container">
-          <a class="navbar-brand" href="index.html">
-            <img src="images/logo.png" alt="" />
-            <span>
-              GYM PARK
-            </span>
-          </a>
-          <div class="contact_nav" id="">
-            <ul class="navbar-nav ">
-              <li class="nav-item">
-                <a class="nav-link" href="service.html">
-                  <img src="images/location.png" alt="" />
-                  <span>Cúcuta - San Luís</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="service.html">
-                  <img src="images/call.png" alt="" />
-                  <span>305 4530289</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="service.html">
-                  <img src="images/envelope.png" alt="" />
-                  <span>edwardtami1988@gmail.com</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    <a href="index.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i class="ti-shift-left-alt"></i>Up</a>
+    <header class="header">
+        <div class="container">
+            <ul class="social-icons pt-3">
+                <li class="social-item"><a class="social-link text-light" href="https://www.facebook.com/anibal.saavedra.3363"><i class="ti-facebook" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="https://twitter.com/AnixYvedak"><i class="ti-twitter" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="https://www.linkedin.com/in/anibal-saavedra-8b0977258/"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="https://www.instagram.com/anibsaav"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="https://github.com/Ivedaca"><i class="ti-github" aria-hidden="true"></i></a></li>
+            </ul>  
+            <div class="header-content">
+                <h4 class="header-subtitle" >Hello, I am</h4>
+                <h1 class="header-title">Anibal Saavedra</h1>
+                <h6 class="header-mono" >Back End | Developer</h6>
+                 <!-- Botón "Print Resume" -->
+            <button class="btn btn-primary btn-rounded" id="printButton"><i class="ti-printer pr-2"></i>Print Resume</button>
+            </div>
+        </div>
     </header>
-    <!-- end header section -->
-    <!-- slider section -->
-    <section class=" slider_section position-relative">
-      <div class="container">
-        <div class="custom_nav2">
-          <nav class="navbar navbar-expand-lg custom_nav-container ">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+<script>
+    document.getElementById('printButton').addEventListener('click', function() {
+        // Print on "Print Resume"
+        window.open('assets/pdf/Anibal_Saavedra.pdf', '_blank');
+    });
+</script>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
+        <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <div class="d-flex  flex-column flex-lg-row align-items-center">
-                <ul class="navbar-nav  ">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="about.html">Nosotros </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="service.html">Servicios </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Galeria</a>
-                  </li>
-                  <!--<li class="nav-item">
-                    <a class="nav-link" href="#">Login</a>
-                  </li>-->
+            <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link">Resume</a>
+                    </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
-                  <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
-                </form>
-              </div>
+                <ul class="navbar-nav brand">
+                    <img src="assets/imgs/AE_S.jpg" alt="" class="brand-img">
+                    <li class="brand-txt">
+                        <h5 class="brand-title">Anix-YvedaK</h5>
+                        <div class="brand-subtitle">Back End | Developer</div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#blog" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item last-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
             </div>
-          </nav>
         </div>
-      </div>
-      <div class="slider_container">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-6 col-md-7 offset-md-6 offset-md-5">
-                    <div class="detail-box">
-                      <h2>
-                        Get Your Body
-                      </h2>
-                      <h1>
-                        Fitness Here
-                      </h1>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam
-                      </p>
-                      <div class="btn-box">
-                        <a href="" class="btn-1">
-                          Read More
-                        </a>
-                        <a href="" class="btn-2">
-                          Get A Quote
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item ">
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-6 col-md-7 offset-md-6 offset-md-5">
-                    <div class="detail-box">
-                      <h2>
-                        Get Your Body
-                      </h2>
-                      <h1>
-                        Fitness Here
-                      </h1>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam
-                      </p>
-                      <div class="btn-box">
-                        <a href="" class="btn-1">
-                          Read More
-                        </a>
-                        <a href="" class="btn-2">
-                          Get A Quote
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item ">
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-6 col-md-7 offset-md-6 offset-md-5">
-                    <div class="detail-box">
-                      <h2>
-                        Get Your Body
-                      </h2>
-                      <h1>
-                        Fitness Here
-                      </h1>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam
-                      </p>
-                      <div class="btn-box">
-                        <a href="" class="btn-1">
-                          Read More
-                        </a>
-                        <a href="" class="btn-2">
-                          Get A Quote
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- end slider section -->
-  </div>
-
-
-  <!-- about section -->
-
-  <section class="about_section layout_padding">
-    <div class="container">
-      <div class="heading_container">
-        <h2>
-          Quienes Somos
-        </h2>
-      </div>
-      <div class="box">
-        <div class="img-box">
-          <img src="images/about-img.png" alt="">
-        </div>
-        <div class="detail-box">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis
-          </p>
-          <a href="">
-            Read More
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- end about section -->
-
-  <!-- service section -->
-
-  <section class="service_section layout_padding">
-    <div class="container">
-      <div class="heading_container">
-        <h2>
-          Servicios
-        </h2>
-      </div>
-      <div class="service_container">
-        <div class="box">
-          <img src="images/s-1.jpg" alt="">
-          <h6 class="visible_heading">
-            CROSSFIT TRAINING
-          </h6>
-          <div class="link_box">
-            <a href="">
-              <img src="images/link.png" alt="">
-            </a>
-            <h6>
-              CROSSFIT TRAINING
-            </h6>
-          </div>
-        </div>
-        <div class="box">
-          <img src="images/s-2.jpg" alt="">
-          <h6 class="visible_heading">
-            FITNESS
-          </h6>
-          <div class="link_box">
-            <a href="">
-              <img src="images/link.png" alt="">
-            </a>
-            <h6>
-              FITNESS
-            </h6>
-          </div>
-        </div>
-        <div class="box">
-          <img src="images/s-3.jpg" alt="">
-          <h6 class="visible_heading">
-            DYNAMIC STRENGTH TRAINING
-          </h6>
-          <div class="link_box">
-            <a href="">
-              <img src="images/link.png" alt="">
-            </a>
-            <h6>
-              DYNAMIC STRENGTH TRAINING
-            </h6>
-          </div>
-        </div>
-        <div class="box">
-          <img src="images/s-4.jpg" alt="">
-          <h6 class="visible_heading">
-            HEALTH
-          </h6>
-          <div class="link_box">
-            <a href="">
-              <img src="images/link.png" alt="">
-            </a>
-            <h6>
-              HEALTH
-            </h6>
-          </div>
-        </div>
-        <div class="box">
-          <img src="images/s-5.jpg" alt="">
-          <h6 class="visible_heading">
-            WORKOUT
-          </h6>
-          <div class="link_box">
-            <a href="">
-              <img src="images/link.png" alt="">
-            </a>
-            <h6>
-              WORKOUT
-            </h6>
-          </div>
-        </div>
-        <div class="box">
-          <img src="images/s-6.jpg" alt="">
-          <h6 class="visible_heading">
-            STRATEGIES
-          </h6>
-          <div class="link_box">
-            <a href="">
-              <img src="images/link.png" alt="">
-            </a>
-            <h6>
-              STRATEGIES
-            </h6>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- end service section -->
-
-
-  <!-- Us section -->
-
-  <section class="us_section layout_padding">
-    <div class="container">
-      <div class="heading_container">
-        <h2>
-          ¿Por qué Elegirnos?
-        </h2>
-      </div>
-      <div class="us_container">
-        <div class="box">
-          <div class="img-box">
-            <img src="images/u-1.png" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>
-              EXCELENTES EQUIPOS
-            </h5>
-            <p>
-              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            </p>
-          </div>
-        </div>
-        <div class="box">
-          <div class="img-box">
-            <img src="images/u-2.png" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>
-              PLAN DE NUTRICIÓN SALUDABLE
-            </h5>
-            <p>
-              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            </p>
-          </div>
-        </div>
-        <div class="box">
-          <div class="img-box">
-            <img src="images/u-3.png" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>
-              SERVICIOS PERSONALIZADOS
-            </h5>
-            <p>
-              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            </p>
-          </div>
-        </div>
-        <div class="box">
-          <div class="img-box">
-            <img src="images/u-4.png" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>
-              ENTRENAMIENTO ACORDE CON TU NECESIDAD
-            </h5>
-            <p>
-              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- end us section -->
-
-
-  <!-- client section -->
-
-  <section class="client_section layout_padding">
-    <div class="container">
-      <div class="heading_container">
-        <h2>
-          CLIENTES SATISFECHOS
-        </h2>
-      </div>
-      <div id="carouselExample2Indicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExample2Indicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExample2Indicators" data-slide-to="1"></li>
-          <li data-target="#carouselExample2Indicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="box">
-              <div class="img-box">
-                <img src="images/client.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h5>
-                  Paula Cáceres
-                </h5>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="box">
-              <div class="img-box">
-                <img src="images/client.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h5>
-                  María Rodriguéz
-                </h5>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="box">
-              <div class="img-box">
-                <img src="images/client.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h5>
-                  Juan Peréz
-                </h5>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- end client section -->
-
-  <!-- result section -->
-
-  <section class="result_section">
+    </nav>
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-6 px-0">
-          <div class="img-box">
-            <img src="images/result-img.jpg" alt="">
-          </div>
+        <div id="about" class="row about-section">
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">Who am I ?</h3>
+                <span class="line mb-5"></span>
+                <h5 class="mb-3">A Back-End Programmer | Developer located In Colombia LATAM</h5>
+                <p class="mt-20">Badges:</p>
+                <ul class="mt-20">
+                    <li><a href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=86B4A69426B3F763569BF2929E6E5BE33582418DF68E6C8F82D84858CD1E8AB1"><span></span>Oracle Cloud Infrastructure</a></li>
+                    <li><a href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=9F81C096419261C2B773B0160B4C96DA3D4355F2CCE0529D54C7771960A46FF8"><span></span>Oracle Data Management</a></li>
+                    <li><a href="https://mylearn.oracle.com/ou/learning-path/oracle-apex-foundations/112444"><span></span>Oracle Apex Foundations</a></li>
+                </ul>
+                <button class="btn btn-outline-danger" id="btnDownload"><i class="icon-down-circled2 "></i>View Certificates</button>
+            </div>
+<script>
+    document.getElementById('btnDownload').addEventListener('click', function() {
+        // Print on "Print Resume"
+        window.open('assets/pdf/Certificates.pdf', '_blank');
+    });
+</script>
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">Personal Info</h3>
+                <span class="line mb-5"></span>
+                <ul class="mt40 info list-unstyled">
+                    <li><span>Graduate</span> : Geologist Engineer and Programmer</li>
+                    <li><span>Email</span> : anibsaav@gmail.com</li>
+                    <li><span>Hobby</span> : I like listen to music and learn every day</li>
+                    <li><span>Skype</span> : last_vanguard </li>
+                    <li><span>Address</span> : Villa del Norte la Paz Kra 4B#70-40 Apto p3, POPAYAN - COLOMBIA.</li>
+                </ul>
+                <ul class="social-icons pt-3">
+                    <li class="social-item"><a class="social-link" href="https://www.facebook.com/anibal.saavedra.3363"><i class="ti-facebook" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link" href="https://twitter.com/AnixYvedak"><i class="ti-twitter" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link" href="https://www.linkedin.com/in/anibal-saavedra-8b0977258/"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link" href="https://www.instagram.com/anibsaav"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link" href="https://github.com/Ivedaca"><i class="ti-github" aria-hidden="true"></i></a></li>
+                </ul>  
+            </div>
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">Services</h3>
+                <span class="line mb-5"></span>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-widget icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Databases and Cloud Compute</h6>
+                        <p class="subtitle">Development and database management, interacting with them from Java.
+                            <br>
+                            Configuring and deploying applications in Oracle Cloud Infrastructure (VM, networks, databases, and other resources).</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-paint-bucket icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Mobile and Web Development</h6>
+                        <p class="subtitle">Creating Low Code Apps on Appsheet.
+                            <br>
+                            Development and implementation of clean and efficient Java code (OOP).
+                            <br>
+                            Responsive landing pages.
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-stats-up icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Rest API</h6>
+                        <p class="subtitle">Creating and consume APIs using Java Spring Boot.
+                            <br>
+                            Capacity to use version control systems like GIT to collaborate on projects and track
+                            changes in source code.
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-4 col-md-5">
-          <div class="detail-box">
-            <h2>
-              DISEÑADO PARA OBTENER <br>
-              LOS MEJORES RESULTADOS
-            </h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+    </div>
+
+    <!--Resume Section-->
+    <section class="section" id="resume">
+        <div class="container">
+            <h2 class="mb-5"><span class="text-danger">My</span> Resume</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Professional Summary</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="title text-danger">Back-End | Geologist Engineer</h6>
+                            <P class="subtitle">Engineer in the field of Geosciences and graduate from Bootcamp of Oracle
+                                Next Education program and certified by Oracle University, enthusiastic in programming. 
+                                I can help you to reach difficult goals in your technological projects.
+                                <br>
+                                I have knowledge Industrials and research processes, I'm Java Developer uses tools like 
+                                MySQL, H2, Hibernate, JPA, Maven, HTML5, CSS3, SpringBoot, GIT IDE's like Eclipse, VSC,
+                                Intellij IDEA, NetBeans, Cloud Compute like Oracle Cloud Infrastructure (Instances VM, ADB), 
+                                App low-code as Appsheet by Google</P>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Education</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="title text-danger">November 2023 </h6>
+                            <P>Certified of Recognition</P>
+                            <P class="subtitle">Oracle Cloud Infrastructure 2023 Certified Foundations Associate.</P>
+                            <hr>
+                            <h6 class="title text-danger">October 2023</h6>
+                            <P>Certified of Recognition</P>
+                            <P class="subtitle">Oracle Cloud Data Management 2023 Certified Foundations Associate.</P>
+                            <hr>
+                            <h6 class="title text-danger">October 2023</h6>
+                            <P>Back-End | Jr. Developer</P>
+                            <P class="subtitle">Oracle Next Education program (Bootcamp).</P>
+                            <hr>
+                            <h6 class="title text-danger">April 2009</h6>
+                            <P>Teaching Specialization</P>
+                            <P class="subtitle">Teacher Training Program.</P>
+                            <hr>
+                            <h6 class="title text-danger">April 2008</h6>
+                            <P>Geologist Engineer</P>
+                            <P class="subtitle">Water underground, Dredge, Hydrography, and Geology.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="pull-left">
+                                <h4 class="mt-2">Hard Skills</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body pb-2">
+                           <h6>HTML5 &amp; CSS3</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 30%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Git & GitHub</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 55%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>JAVA</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 65%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>SQL</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 45%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Data Management</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 50%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Spring Boot</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 40%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="pull-left">
+                                <h4 class="mt-2">Soft Skills</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body pb-2">
+                            <h6>English</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 45%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Teamwork</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Adaptability and managing multi-tasks</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 77%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Effective communication</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section bg-dark py-5">
+        <div class="container text-center">
+            <h2 class="text-light mb-3 font-weight-normal">I Am Available For FreeLance</h2>
+            <button class="btn bg-primary w-lg" id="btnHire">Hire me</button>
+        </div>
+    </section>
+<script>
+    // Listener
+    const hireButton = document.getElementById('btnHire');
+
+    // Add event listener for click
+    hireButton.addEventListener('click', () => {
+        // find section
+        const contactSection = document.getElementById('contact');
+        const contactSectionPosition = contactSection.offsetTop;
+
+        // Move to contact section
+        window.scrollTo({
+            top: contactSectionPosition,
+            behavior: 'smooth'
+        });
+    });
+</script>
+    <!-- Portfolio Section -->
+    <section class="section bg-custom-gray" id="portfolio">
+        <div class="container">
+            <h1 class="md-5"><span class="text-danger">My</span> Portfolio</h1>
+            <div class="portfolio">
+                <div class="filters">
+                    <a href="#" data-filter=".new" class="active">
+                        Apps
+                    </a>
+                    <a href="#" data-filter=".advertising">
+                        Java
+                    </a>
+                    <a href="#" data-filter=".branding">
+                        Web
+                    </a>
+                    <a href="#" data-filter=".web">
+                        Cloud
+                    </a>
+                </div>
+                <div class="portfolio-container"> 
+                    <div class="col-md-6 col-lg-4 web new">
+                        <div class="portfolio-item">
+                            <video controls autoplay class="img-fluid">
+                                <source src="assets/videos/App_Port.mp4" type="video/mp4">
+                                Tu navegador no soporta el tag de video.
+                            </video>
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/videos/App_Port.mp4"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Apps</h6>
+                                    <p class="subtitle">project to create an application that captures order data on routes</p>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>                                     
+                    <div class="col-md-6 col-lg-4 web new">
+                        <div class="portfolio-item">
+                            <video controls autoplay class="img-fluid">
+                                <source src="assets/videos/JavaPublish2.mp4" type="video/mp4">
+                                Tu navegador no soporta el tag de video.
+                            </video>
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/videos/JavaPublish2.mp4"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Java</h6>
+                                    <p class="subtitle">Desktop application developed in Java to convert temperature and currency exchange.</p>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>              
+                    <div class="col-md-6 col-lg-4 web new">
+                        <div class="portfolio-item">
+                            <video controls autoplay class="img-fluid">
+                                <source src="assets/videos/EndPoints.mp4" type="video/mp4">
+                                Tu navegador no soporta el tag de video.
+                            </video>
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/videos/EndPoints.mp4"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Cloud</h6>
+                                    <p class="subtitle">Basic API with several endpoints uploaded in Oracle Cloud.</p>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div> 
+                    <div class="col-md-6 col-lg-4 web">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/Encryptador.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/Encryptador.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Web</h6>
+                                    <p class="subtitle"> Encryption project Oracle-ONE Alura.</p>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div>
+                    <div class="col-md-6 col-lg-4 advertising"> 
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/Leo1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                               
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/Leo1.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Web</h6>
+                                    <p class="subtitle">E-commerce project.</p>
+                                </div>
+                            </div>
+                        </div>                                                       
+                    </div> 
+                    <div class="col-md-6 col-lg-4 web new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/Leo1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
+                           <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/Leo1.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Web</h6>
+                                    <p class="subtitle">E-commerce project.</p>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div>                    
+                    <div class="col-md-6 col-lg-4 advertising new"> 
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/POS.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">            
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/POS.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Java</h6>
+                                    <p class="subtitle">App development to point of sale control crud</p>
+                                </div>
+                            </div>
+                        </div>
+                                
+                    </div> 
+                    <div class="col-md-6 col-lg-4 branding new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/Leo2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                        
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/Leo2.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Web</h6>
+                                    <p class="subtitle">E-commerce project.</p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div> 
+                    <div class="col-md-6 col-lg-4 branding">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/Encryptador.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/Encryptador.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Web</h6>
+                                    <p class="subtitle">E-commerce project.</p>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div> 
+                    <div class="portfolio-item">
+                        <video controls autoplay class="img-fluid">
+                            <source src="assets/videos/JavaPublish2.mp4" type="video/mp4">
+                            Tu navegador no soporta el tag de video.
+                        </video>
+                        <div class="content-holder">
+                            <a class="img-popup" href="assets/videos/JavaPublish2.mp4"></a>
+                            <div class="text-holder">
+                                <h6 class="title">Java</h6>
+                                <p class="subtitle">Desktop application developed in Java to convert temperature and currency exchange.</p>
+                            </div>
+                        </div>   
+                    </div>             
+                </div>                     
+                </div> 
+            </div>  
+        </div>            
+    </section>
+    <!-- End of portfolio section -->
+
+    <section class="section" id="blog">
+        <div class="container">
+            <h2 class="mb-5">Latest <span class="text-danger">News</span></h2>
+            <div class="row">
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="assets/imgs/city-5353634_640.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="content-holder">
+                        <h6 class="title">Oracle Opens Colombia’s First Hyperscale Cloud Region</h6>
+
+                        <p class="post-details">
+                            <a>Austin, Texas and Bogotá, Colombia—December 6, 2023</a>
+                        </p>
+                        
+                        <p>Oracle partners with Claro to bring a world-class public cloud to Colombia
+
+                            Oracle continues to expand its global cloud region footprint with 47th public cloud region
+                            
+                            Organizations benefit from OCI’s high performance and security, powerful data and analytics, and distributed cloud capabilities.</p>
+
+                        <!--<p><b>Necessitatibus nihil impedit! Ex nisi eveniet, dolor aliquid consequuntur repudiandae.</b></p> -->
+                        <p>Oracle today announced the opening of an Oracle Cloud Region in Colombia in partnership with Claro, becoming the first major cloud provider to establish a public cloud region in the country. Claro is one of the host partners for the new Oracle Cloud Bogotá Region, and through its partnership with Oracle it becomes the first telecommunications operator to offer Oracle Cloud Infrastructure (OCI) services to organizations across Colombia.</p>
+
+                        <a href="https://www.oracle.com/news/announcement/oracle-partners-with-claro-to-open-colombias-first-hyperscale-cloud-region-2023-12-06/?elq_mid=250443&sh=2613182508262605141636243215&cmid=WWMK230524P00051C00006" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
+                    </div>
+                </div><!-- end of blog wrapper -->
+
+                <!-- blog-card -->
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="assets/imgs/FreeTier.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="content-holder">
+                        <h6 class="title">Oracle Cloud Free Tier</h6>
+
+                        <p class="post-details">
+                            <a>By: Oracle</a>
+                        </p>
+                        
+                        <p>Build, test, and deploy applications on Oracle Cloud—for free.
+
+                            Free Tier is currently available in all regions where commercial Oracle Cloud Infrastructure service is available. The US$300 free credit is available in select countries and valid for up to 30 days. Oracle Cloud credits are consumed at discounted rates during the 30-day promotional period.</p>
+
+                        <a href="https://www.oracle.com/cloud/free/?source=:ow:o:h:nav:050120SiteFooter&intcmp=:ow:o:h:nav:050120SiteFooter" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
+                    </div>
+                </div><!-- end of blog wrapper -->
+                <!-- blog-card -->
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="assets/imgs/Java.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="content-holder">
+                        <h4 class="title">Java</h4>
+
+                        <p class="post-details">
+                            <a href="#">By: Oracle</a>
+                        </p>
+                        
+                        <p> Oracle Java is the #1 programming language and development platform. It reduces costs, shortens development timeframes, drives innovation, and improves application services. With millions of developers running more than 60 billion Java Virtual Machines worldwide, Java continues to be the development platform of choice for enterprises and developers.</p>
+
+                        <a href="https://www.oracle.com/java/" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
+                    </div>
+                </div><!-- end of blog wrapper -->
+
+            </div>
+        </div>
+    </section>
+
+    <div class="section contact" id="contact">
+        <div id="map" class="map"></div>
+        <div class="container">
+            <div class="row">
+                <!--
+                <div class="col-lg-8">
+                    <div class="contact-form-card">
+                        <h4 class="contact-title">Send a message</h4>
+                        <form action="" id="contactForm">
+                            <div class="form-group">
+                                <input  class="form-control" type="text" placeholder="Name *" required>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="email" placeholder="Email *" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" id=" placeholder="Message *" rows="7" required></textarea>
+                            </div>
+                            <div class="form-group ">
+                                <button type="submit" class="form-control btn btn-primary" >Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            -->
+                <div class="col-lg-4">
+                    <div class="contact-info-card">
+                        <h4 class="contact-title">Get in touch</h4>
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-mobile icon-md"></i>
+                            </div>
+                            <div class="col-10 ">
+                                <h6 class="d-inline">Phone : <br> <span class="text-muted">(+57) 312 6111465</span></h6>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-map-alt icon-md"></i>
+                            </div>
+                            <div class="col-10">
+                                <h6 class="d-inline">Address :<br> <span class="text-muted">Popayan, Kr 4B#70-40 p3.</span></h6>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-envelope icon-md"></i>
+                            </div>
+                            <div class="col-10">
+                                <h6 class="d-inline">Email :<br> <span class="text-muted">anibsaav@gmail.com</span></h6>
+                            </div>
+                        </div>
+                        <ul class="social-icons pt-4">
+                            <li class="social-item"><a class="social-link text-dark" href="https://www.facebook.com/anibal.saavedra.3363"><i class="ti-facebook" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-dark" href="https://twitter.com/AnixYvedak"><i class="ti-twitter" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-dark" href="https://www.linkedin.com/in/anibal-saavedra-8b0977258/"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-dark" href="https://www.instagram.com/anibsaav"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-dark" href="https://github.com/Ivedaca"><i class="ti-github" aria-hidden="true"></i></a></li>
+                        </ul> 
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer class="footer py-3">
+        <div class="container">
+            <p class="small mb-0 text-light">
+                &copy; <script>document.write(new Date().getFullYear())</script> Created With <i class="ti-heart text-danger"></i> By <a href="http://www.linkedin.com/in/anibal-saavedra-8b0977258" target="_blank"><span class="text-danger" title="Bootstrap 4 Themes and Dashboards">Anix-YvedaK</span></a> 
             </p>
-            <a href="">
-              Contáctanos
-            </a>
-          </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </footer>
 
-  <!-- end result section -->
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
 
-  <!-- info section -->
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
 
-  <section class="info_section layout_padding2-top">
-    <div class="container">
-      <div class="info_form">
-        <h4>
-          Our Newsletter
-        </h4>
-        <form action="">
-          <input type="text" placeholder="Enter your email">
-          <div class="d-flex justify-content-end">
-            <button>
-              subscribe
-            </button>
-          </div>
-        </form>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3">
-          <h6>
-            Acerca de Gym Park
-          </h6>
-          <p>
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-            minim veniam, quis nostrud exercitation u
-          </p>
-        </div>
-        <div class="col-md-2 offset-md-1">
-          <h6>
-            Menú
-          </h6>
-          <ul>
-            <li class=" active">
-              <a class="" href="index.html">Inicio <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="">
-              <a class="" href="about.html">Nosotros </a>
-            </li>
-            <li class="">
-              <a class="" href="service.html">Servicios </a>
-            </li>
-            <li class="">
-              <a class="" href="#contactSection">Galería</a>
-            </li>
-            <!--<li class="">
-              <a class="" href="#">Login</a>
-            </li>-->
-          </ul>
-        </div>
-        <div class="col-md-3">
-          <h6>
-            Links
-          </h6>
-          <ul>
-            <li>
-              <a href="">
-                Adipiscing
-              </a>
-            </li>
-            <li>
-              <a href="">
-                Elit, sed
-              </a>
-            </li>
-            <li>
-              <a href="">
-                do Eiusmod
-              </a>
-            </li>
-            <li>
-              <a href="">
-                Tempor
-              </a>
-            </li>
-            <li>
-              <a href="">
-                incididunt
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-3">
-          <h6>
-            Contáctanos
-          </h6>
-          <div class="info_link-box">
-            <a href="">
-              <img src="images/location-white.png" alt="">
-              <span>Av. 2 Calle 13 N° 1-57, <br> San Luís</span>
-            </a>
-            <a href="">
-              <img src="images/call-white.png" alt="">
-              <span>305 4530289</span>
-            </a>
-            <a href="">
-              <img src="images/mail-white.png" alt="">
-              <span>edwardtami1988@gmail.com</span>
-            </a>
-          </div>
-          <div class="info_social">
-            <div>
-              <a href="">
-                <img src="images/facebook-logo-button.png" alt="">
-              </a>
-            </div>
-            <div>
-              <a href="">
-                <img src="images/twitter-logo-button.png" alt="">
-              </a>
-            </div>
-            <div>
-              <a href="">
-                <img src="images/linkedin.png" alt="">
-              </a>
-            </div>
-            <div>
-              <a href="">
-                <img src="images/instagram.png" alt="">
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    <!-- Isotope  -->
+    <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
+    
+    <!-- Google maps -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=initMap"></script>
+    
+    <!-- Anix-YvedaK js -->
+    <script src="assets/js/jd.js"></script>
 
-  <!-- end info section -->
-
-
-  <!-- footer section -->
-  <section class="container-fluid footer_section ">
-    <p>
-      &copy; 2024 All Rights Reserved. Design by
-      <a href="https://html.design/">Free Html Templates and Updated by Anix-YvedaK in collaboration with Betzivan Gonzalez</a>
-    </p>
-  </section>
-  <!-- footer section -->
-
-  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.js"></script>
-
-  <script>
-    function openNav() {
-      document.getElementById("myNav").classList.toggle("menu_width");
-      document
-        .querySelector(".custom_menu-btn")
-        .classList.toggle("menu_btn-style");
-    }
-  </script>
 </body>
-
 </html>
